@@ -29,8 +29,8 @@ export default function handler(req, res) {
                 sameSite: "None",
                 secure: true,
               }),
-            ])
-            .redirect("/");
+            ]);
+            res.redirect("/");
         }
       } catch (err) {
         console.log(`ERROR: ${err}`);

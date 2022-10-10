@@ -11,7 +11,7 @@
 
 module.exports = {
   experimental: {
-    runtime: "edge",
+    runtime: "edge", // run backend closer to user
     serverComponents: true,
   },
 };
